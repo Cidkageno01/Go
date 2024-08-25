@@ -1,7 +1,7 @@
 {
   "facebookAccount": {
-    "email": "mocha1205+4@yandex.com",
-    "password": "mochapat4",
+    "email": "",
+    "password": "",
     "2FASecret": "",
     "i_user": "",
     "proxy": null,
@@ -12,20 +12,26 @@
   "antiInbox": false,
   "language": "en",
   "notesLanguage": "change to your language with ISO 639-1 code, available languages: vi (Vietnamese), en (English)",
+  "nickNameBot": "★𝐒𝚮𝚫𝐃𝚯𝐖 𝐆𝚫𝚪𝐃𝚵𝚴★",
+  "prefix": "¥",
   "adminOnly": {
     "enable": false,
     "ignoreCommand": []
   },
   "adminBot": [
-    "100089627205102"
+    "100092500544975"
   ],
   "whiteListMode": {
     "enable": false,
     "whiteListIds": [],
-    "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
+    "notes": "if you enable this feature, only the ids in the whiteListIds list can use the bot"
   },
-  "nickNameBot": "ɱıɱ⇴《.》 ʂąŋ",
-  "prefix": ".",
+  "whiteListModeThread": {
+    "enable": false,
+    "whiteListThreadIds": [],
+    "notes": "if you enable this feature, only the thread in the whiteListThreadIds list can use the bot",
+    "how_it_work": "if you enable both whiteListMode and whiteListModeThread, the system will check if the user is in whiteListIds, then check if the thread is in whiteListThreadIds, if one of the conditions is true, the user can use the bot"
+  },
   "database": {
     "type": "sqlite",
     "uriMongodb": "",
@@ -33,18 +39,18 @@
     "autoRefreshThreadInfoFirstTime": true,
     "notes": "(1) type selects 'json' or 'sqlite' or 'mongodb'. If you choose mongodb, enter uri connect mongodb in the uriMongodb section, instructions to get uri connect mongodb at: https://youtu.be/z1f9urHW5xY. I recommend using 'mongodb' or 'sqlite', json is not recommended because it is not stable. (2) when you set autoSyncWhenStart to true, the bot will automatically synchronize the data in the database when starting the bot, this will make the bot start slower. (3) when you set autoRefreshThreadInfoFirstTime to true, the bot will automatically refresh the thread information when get first message from the thread since starting the bot"
   },
-  "timeZone": "Asia/Manila",
+  "timeZone": "Asia/Ho_Chi_Minh",
   "credentials": {
     "gmailAccount": {
-      "email": "kramn1205@gmail.com",
-      "clientId": "407168939339-ni7uvp8054bpnht4280n6d3no4qrf3mv.apps.googleusercontent.com",
-      "clientSecret": "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",
-      "refreshToken": "1//041Aj0DBzlyxuCgYIARAAGAQSNwF-L9IrSJFfXahDmIC5CaNNthQwg0yT8ZrFaUUofZBR13qsh-nNBLi7_4LZMlZ00F8AiWo6Moo",
+      "email": "akuebenjamin01@icloud.com",
+      "clientId": "905338919662-vnhsa1cqkjv3jvjd26g7avv3ndnc4hs5.apps.googleusercontent.com",
+      "clientSecret": "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",
+      "refreshToken": "1//04MKpoouAJGtACgYIARAAGAQSNwF-L9IrwrrJyTN1oNsexdUu85fpIhgGhIJ845rr4S8bWujifEydM5JyNoSGkZS0AWwMVkRKyE0",
       "apiKey": ""
     },
     "gRecaptcha": {
-      "siteKey": "6LdtgYMoAAAAABS1V6_RlEsUXf7dNLIzbc4EPhbt",
-      "secretKey": "6LdtgYMoAAAAAKXtH5f06qZBq28VXXqOb6rOSGQ5"
+      "siteKey": "6LcR0C0qAAAAANXnalYBz-ORfCZBhuo0FwaWvP5W",
+      "secretKey": "6LcR0C0qAAAAAPxF-9bRIvNWrzinWzdtiHKtXuzF"
     }
   },
   "dashBoard": {
